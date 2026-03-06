@@ -35,21 +35,13 @@ body {
   font-style: italic;
 }
 
-a {
-  color: #222;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #a32020;
-}
-
-.email-link {
+a,
+a:visited {
   color: #a32020;
   text-decoration: none;
 }
 
-.email-link:hover {
+a:hover {
   color: #a32020;
   text-decoration: underline;
 }
