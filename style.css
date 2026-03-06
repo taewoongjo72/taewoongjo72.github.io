@@ -63,27 +63,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.paper-links {
-  margin-top: 6px;
-  margin-bottom: 10px;
-  font-size: 1rem;
-}
-
-.paper-links a,
-.paper-links a:visited {
-  color: #a32020;
-  text-decoration: none;
-}
-
-.paper-links a:hover {
-  text-decoration: underline;
-}
-
-.paper-links .sep {
-  color: #a32020;
-  margin: 0 4px;
-}
-
 .paper {
   margin-bottom: 5px;
 }
@@ -93,4 +72,59 @@ a:hover {
     width: auto;
     grid-template-columns: 1fr;
   }
+}
+
+
+.paper-links {
+  margin-top: 4px;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.paper-links a,
+.paper-links a:visited {
+  color: #a32020;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.paper-links a:hover {
+  text-decoration: underline;
+}
+
+.paper-links .sep {
+  color: #a32020;
+  margin: 0 8px;
+}
+
+.abstract-toggle {
+  display: inline;
+}
+
+.abstract-toggle summary {
+  display: inline;
+  cursor: pointer;
+  color: #a32020;
+  font-weight: 600;
+  list-style: none;
+}
+
+.abstract-toggle summary::-webkit-details-marker {
+  display: none;
+}
+
+.abstract-toggle[open] summary {
+  text-decoration: underline;
+}
+
+.abstract-box {
+  display: block;
+  margin-top: 8px;
+  margin-left: 0;
+  padding: 0;
+  color: #222;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.45;
 }
