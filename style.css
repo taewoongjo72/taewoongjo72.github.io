@@ -148,6 +148,6 @@ a:hover {
   text-align: center;
 }
 
-.cv-link {
-  margin-top: 24px;
+.sidebar .cv-link {
+  margin-top: 20px;
 }
