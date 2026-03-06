@@ -10,29 +10,50 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 48px 24px;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  column-gap: 70px;
+  align-items: start;
+}
+
+.sidebar {
+  position: sticky;
+  top: 40px;
+}
+
+.main {
+  min-width: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 18px;
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 1.55rem;
   font-weight: 700;
-  margin-top: 48px;
-  margin-bottom: 24px;
+  margin-top: 42px;
+  margin-bottom: 20px;
 }
 
 .paper-title {
   color: #a32020;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  line-height: 1.45;
 }
 
 .paper-info {
-  font-size: 1.1rem;
-  margin-bottom: 10px;
+  font-size: 1rem;
+  margin-bottom: 8px;
 }
 
 .paper-note {
   font-style: italic;
+  font-size: 0.98rem;
 }
 
 a,
@@ -44,4 +65,15 @@ a:visited {
 a:hover {
   color: #a32020;
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+
+  .sidebar {
+    position: static;
+  }
 }
