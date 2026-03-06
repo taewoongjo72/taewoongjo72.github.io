@@ -67,6 +67,10 @@ a:hover {
   margin-bottom: 5px;
 }
 
+.spacer {
+  margin: 0 0 14px 0;
+}
+
 @media (max-width: 900px) {
   .container {
     width: auto;
