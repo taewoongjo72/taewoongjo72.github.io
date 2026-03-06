@@ -1,13 +1,9 @@
 body {
-  background: yellow !important;
-}
-
-body {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   background: #f8f8f5;
   color: #222;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .container {
@@ -28,19 +24,34 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin: 0 0 18px 0;
 }
 
 h2 {
-  font-size: 1.5rem;
-  margin: 36px 0 18px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 32px 0 12px 0;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 0 0 6px 0;
 }
 
 .paper-title {
   color: #a32020;
   font-size: 1.1rem;
   font-weight: 600;
+  line-height: 1.35;
+}
+
+.paper-note {
+  font-style: italic;
+}
+
+section {
+  margin-bottom: 28px;
 }
 
 a,
