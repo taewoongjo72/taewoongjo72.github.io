@@ -39,9 +39,7 @@ p {
   margin: 0 0 6px 0;
 }
 
-.journal {
-  font-size: 1.0rem;
-  margin: 0 0 6px 0;
+.journal-name {
   font-style: italic;
   color: #a32020;
 }
