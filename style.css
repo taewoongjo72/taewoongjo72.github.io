@@ -43,3 +43,13 @@ a {
 a:hover {
   color: #a32020;
 }
+
+.email-link {
+  color: #a32020;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: #a32020;
+  text-decoration: underline;
+}
