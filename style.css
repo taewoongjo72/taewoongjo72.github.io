@@ -64,6 +64,28 @@ a:hover {
   text-decoration: underline;
 }
 
+.paper-links {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.paper-links a,
+.paper-links a:visited {
+  color: #1b1f8a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.paper-links a:hover {
+  text-decoration: underline;
+}
+
+.paper-links .sep {
+  color: #777;
+  margin: 0 8px;
+}
+
 @media (max-width: 900px) {
   .container {
     width: auto;
