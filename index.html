@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taewoong Jo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #fafaf7;
+      color: #222;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 56px;
+    }
+    .sidebar h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .sidebar p {
+      margin: 0.3rem 0;
+    }
+    .content section {
+      margin-bottom: 48px;
+    }
+    .content h2 {
+      font-size: 1rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    a {
+      color: #222;
+    }
+    @media (max-width: 800px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h1>Taewoong Jo</h1>
+      <p>PhD Student in Economics</p>
+      <p>University of Wisconsin–Madison</p>
+      <p><a href="mailto:your_email_here">your_email_here</a></p>
+    </aside>
+
+    <main class="content">
+      <section>
+        <h2>About</h2>
+        <p>
+          I am a PhD student in Economics at the University of Wisconsin–Madison.
+          My research interests include macroeconomics, asset pricing, and expectation formation.
+        </p>
+      </section>
+
+      <section>
+        <h2>Research</h2>
+        <p>Working paper title 1</p>
+        <p>Working paper title 2</p>
+      </section>
+
+      <section>
+        <h2>Teaching</h2>
+        <p>Teaching Assistant, Macroeconomics</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
