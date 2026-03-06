@@ -40,7 +40,6 @@ p {
 }
 
 .paper-title {
-  color: #a32020;
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.35;
@@ -72,7 +71,7 @@ a:hover {
 
 .paper-links a,
 .paper-links a:visited {
-  color: #1b1f8a;
+  color: #a32020;
   text-decoration: none;
   font-weight: 600;
 }
@@ -84,6 +83,10 @@ a:hover {
 .paper-links .sep {
   color: #777;
   margin: 0 8px;
+}
+
+.paper {
+  margin-bottom: 10px;
 }
 
 @media (max-width: 900px) {
