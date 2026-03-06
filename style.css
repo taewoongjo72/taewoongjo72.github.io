@@ -139,5 +139,15 @@ a:hover {
   object-fit: cover;
   display: block;
   margin-bottom: 18px;
-  border-radius: 20px;
+  border-radius: 15px;
+}
+
+.icon-link i {
+  width: 24px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.cv-link {
+  margin-top: 14px;
 }
